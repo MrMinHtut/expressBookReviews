@@ -24,7 +24,6 @@ public_users.post("/register", (req, res) => {
 // Get the book list available in the shop using async/await with Axios
 public_users.get('/', async function (req, res) {
     try {
-        // Simulating async operation with Promise
         const getBooks = new Promise((resolve, reject) => {
             resolve(books);
         });
